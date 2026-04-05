@@ -27,7 +27,7 @@ class GameScreen extends StatefulWidget {
 }
 
 class _GameScreenState extends State<GameScreen> {
-  int score = 0; // Déplacé ici pour que le score soit modifiable
+  int score = 0; 
   double bx = 0;
   double by = 0;
   double bdx = 0.01;
@@ -74,7 +74,6 @@ class _GameScreenState extends State<GameScreen> {
   }
   @override
   Widget build(BuildContext context) {
-    
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
@@ -92,12 +91,9 @@ class _GameScreenState extends State<GameScreen> {
             icon: const Icon(Icons.refresh),
             onPressed: () {
               setState(() {
-                // reset game
                 bx = 0;
                 by = 0;
                 score = 0;
-
-                // إعادة البلوكات
                 bricks = List.generate(5, (i) => List.generate(10, (j) => true));
               });
             },
@@ -142,7 +138,6 @@ class _GameScreenState extends State<GameScreen> {
               ),
             ),
           ),
-
           // barre
           Align(
             alignment: Alignment(barX, 0.95),
