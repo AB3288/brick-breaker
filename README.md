@@ -1,16 +1,16 @@
-  # 🧱 Brick Breaker - Flutter
+  # 🎮 Brick Breaker - Flutter
 
 Un jeu Brick Breaker classique développé avec Flutter,
 sans utiliser de moteur de jeu externe (pas de Flame).
 
-## 🎮 Aperçu
+##  Aperçu
 
 - Balle qui rebondit sur les murs et la raquette
 - Briques à détruire
 - Score en temps réel
 - Bouton reset
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 - Flutter
 - Dart
@@ -18,13 +18,13 @@ sans utiliser de moteur de jeu externe (pas de Flame).
 - `Align` + `Alignment` pour positionner la balle et la raquette
 - `GestureDetector` pour déplacer la raquette au doigt
 
-## 🚀 Lancer le projet
+## Lancer le projet
 ```bash
 flutter pub get
 flutter run
 ```
 
-## 🔧 Fonctionnalités ## 
+## Fonctionnalités ## 
 
 - ✅ Mouvement de la balle
 - ✅ Rebond sur les murs
@@ -33,6 +33,6 @@ flutter run
 - ✅ Score
 - ✅ Reset du jeu
 
-## 👨‍💻 Auteur
+## Auteur
 
 **AB3288** - [github.com/AB3288](https://github.com/AB3288)
