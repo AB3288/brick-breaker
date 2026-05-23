@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "adb-connect",
+      "type": "shell",
+      "command": "adb connect 127.0.0.1:6555",
+      "presentation": { "reveal": "silent" }
+    }
+  ]
+}
