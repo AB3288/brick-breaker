@@ -1,54 +1,46 @@
 # 🎮 Brick Breaker - Flutter
+A classic Brick Breaker game built with Flutter, without any external game engine (no Flame).
 
-Un jeu Brick Breaker classique développé avec Flutter,
-sans utiliser de moteur de jeu externe (pas de Flame).
+## Overview
+- Ball bouncing off walls and the paddle
+- Normal bricks and hard bricks (2 hits)
+- Real-time score with combo system
+- 5 progressive levels
+- 3 lives with visual indicator
 
-## Aperçu
-
-- Balle qui rebondit sur les murs et la raquette
-- Briques normales et briques dures (2 coups)
-- Score en temps réel avec système de combo
-- 5 niveaux progressifs
-- 3 vies avec indicateur visuel
-
-## Technologies utilisées
-
+## Tech Stack
 - Flutter / Dart
-- `Timer.periodic` pour la boucle de jeu
-- `Align` + `Alignment` pour positionner la balle et la raquette
-- `GestureDetector` pour déplacer la raquette au doigt
-- `KeyboardListener` pour les touches clavier
+- `Timer.periodic` for the game loop
+- `Align` + `Alignment` to position the ball and paddle
+- `GestureDetector` to move the paddle with touch
+- `KeyboardListener` for keyboard input
 
-## Lancer le projet
-
+## Getting Started
 ```bash
 flutter pub get
 flutter run
 ```
 
-## Contrôles
+## Controls
+| Key | Action |
+|-----|--------|
+| ⬅️ ➡️ Arrow keys | Move the paddle |
+| SPACE | Launch the ball |
+| ESC | Pause / Resume |
 
-| Touche | Action |
-|--------|--------|
-| ⬅️ ➡️ Flèches | Déplacer la raquette |
-| ESPACE | Lancer la balle |
-| ÉCHAP | Pause / Reprendre |
-
-## Fonctionnalités
-
-- ✅ Mouvement de la balle
-- ✅ Rebond sur les murs et le plafond
-- ✅ Collision balle / raquette avec angle dynamique
-- ✅ Collision balle / briques
-- ✅ Briques dures (nécessitent 2 coups)
-- ✅ Score avec multiplicateur de combo
-- ✅ 5 niveaux (vitesse et difficulté progressives)
-- ✅ 3 vies
+## Features
+- ✅ Ball movement
+- ✅ Bouncing off walls and ceiling
+- ✅ Ball / paddle collision with dynamic angle
+- ✅ Ball / brick collision
+- ✅ Hard bricks (require 2 hits)
+- ✅ Score with combo multiplier
+- ✅ 5 levels (progressive speed and difficulty)
+- ✅ 3 lives
 - ✅ Pause
-- ✅ Écrans Game Over / Victoire
-- ✅ Contrôle clavier (flèches + espace)
-- ✅ Contrôle tactile (glisser + tap)
+- ✅ Game Over / Victory screens
+- ✅ Keyboard control (arrows + space)
+- ✅ Touch control (swipe + tap)
 
-## Auteur
-
+## Author
 **AB-060** - [github.com/AB-060](https://github.com/AB-060)
